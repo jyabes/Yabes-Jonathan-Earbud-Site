@@ -19,6 +19,14 @@ h2 {
   padding: 0 10px 0 10px;
 }
 
+h3 {
+  /* font-family: "cantarellregular", helvetica, arial; */
+  font-size: 30px;
+  color: #ffffff;
+  padding: 0 10px 0 10px;
+  text-align: center;
+}
+
 p {
   line-height: 1.2;
   margin-bottom: 2px;
@@ -160,6 +168,7 @@ p {
   display: grid;
   gap: 0px;
   padding: 0px;
+  align-items: center;
 }
 
 #media {
@@ -290,6 +299,24 @@ footer {
 #explode-view2 {
   max-width: 100%;
   /* width: 100vw; */
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.vertical-line {
+  position: absolute;
+  background-color: rgb(122, 122, 122);
+}
+
+.vertical-line {
+  left: 50%;
+  top: 3;
+  width: 1px;
+  height: 58%;
 }
 
 model-viewer {
