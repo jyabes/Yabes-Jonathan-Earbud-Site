@@ -1,6 +1,7 @@
-# EARBUD PROMOTIONAL WEBSITE
- Create a earbud promotional website includes the creation of various assets, earbud color variations,x-ray view showcasing the internal componenets, promotional images and animations.
- 
+
+
+# PORTFOLIO
+ Create personal portfolio website to showcase my content or projects such us 3D, motion graphics, and more.
 
 ## Installation
 
