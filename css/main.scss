@@ -29,12 +29,20 @@ h3 {
   
 }
 
+h4 {
+  /* font-family: "cantarellregular", helvetica, arial; */
+  font-size: 17px;
+  color: #ffffff;
+  padding: 0 10px 0 10px;
+  text-align: center;
+}
+
 p {
   line-height: 1.2;
   margin-bottom: 2px;
   padding: 0px 20px 20px 20px;
   font-size: 18px;
-  color: #383838;
+  color: #cccccc;
 }
 
 .copyright p {
@@ -225,8 +233,8 @@ h2 {
 }
 
 footer {
-  background-color: #939393;
-  color: #dcdcdc;
+  background-color: #212121;
+  color: #1f103f;
   height: 440px;
   justify-content: center;
   display: flex;
@@ -235,8 +243,8 @@ footer {
 }
 
 .footer2 {
-  background-color: #939393;
-  color: #dcdcdc;
+  background-color: #1f103f;
+  color: #1f103f;
   height: 100px;
   justify-content: center;
   display: flex;
@@ -292,6 +300,11 @@ footer {
   }
 }
 
+//video button
+
+
+
+
 // EXPLODE
 
 #explode-view1 {
@@ -312,17 +325,7 @@ footer {
   height: 200px;
 }
 
-.vertical-line {
-  position: absolute;
-  background-color: rgb(122, 122, 122);
-}
 
-.vertical-line {
-  left: 50%;
-  top: 3;
-  width: 1px;
-  height: 58%;
-}
 
 
 
@@ -335,8 +338,10 @@ model-viewer {
   width: auto;
   min-width: 1200px;
   height: 700px;
-  background-color: #efefef;
-  margin: 0 auto;
+  background-color: #000000;
+  //margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .Hotspot {
@@ -424,6 +429,10 @@ model-viewer::part(default-progress-bar) {
   outline: 1px solid #4285f4;
 }
 
+
+
+
+
 @keyframes circle {
   from {
     transform: translateX(-50%) rotate(0deg) translateX(50px) rotate(0deg);
@@ -456,10 +465,55 @@ model-viewer > #ar-prompt > img {
   animation: circle 4s linear infinite;
 }
 
-#about-us {
-  margin-bottom: 40px;
+
+
+// info card area
+
+.name {
+  color: #d6d6d6;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-#founders section {
-  margin-bottom: 40px;
-}/*# sourceMappingURL=main.css.map */
+.buyers {
+  color: #2daacd;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.reviewers {
+  background-color: #514848;
+  box-shadow: 0px 7px 0px #999;
+  padding: 40px 10px 15px 10px;
+  margin: 0 auto;
+  border-radius: 2%;
+}
+ 
+
+.photo {
+  background: url('http://files.gamebanana.com/bitpit/avatar_100x100.png');
+  position: absolute;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-left: 190px;
+  margin-top: -90px; }
+
+
+.more {
+  background-color: #ee2b7a;
+  box-shadow: 0px 7px 0px #8f1a49;
+  text-align: center;
+  height: 30px;
+  width: 130px;
+  position: absolute;
+  margin: -15px -70px; }
+.more:hover {
+  background-color: #f15595;
+  box-shadow: 0px 7px 0px #a5486d; }
+
+
+
+
+/*# sourceMappingURL=main.css.map */
