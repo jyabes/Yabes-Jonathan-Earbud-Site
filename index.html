@@ -13,6 +13,7 @@
 
 
 <section class="desktop-menu"> 
+<h1 class="hidden">Sonicboom</h1>
 <header id="main-header" class="col-span-full">
     <nav id="main-nav">
         <h2 class="hidden">desktop nav</h2>
@@ -31,12 +32,14 @@
 
 
                 <div class="grid-con-full">
+                    
                     <h2 class="hidden">Earbud Promo</h2>
                     <div>
-                         <video controls id="media">
+                        <section class="col-span-full" id="player-container">
+                         <video controls id="media" poster="images/sonicboom.jpg">
                             <source src="/videos/earbud_promo.mp4">
                         </video> 
-                        
+                    </section>
                     </div>
                 </div>
 
@@ -53,32 +56,6 @@
                 </div>
                 <hr>
 <!--  hotspot -->
-
-
-<!--  x-ray -->
-                <div class="grid-con">
-                    <section class="col-span-full">
-                        <h2 class="hidden">X-Ray revealer</h2>
-                        <div id="mobile-tablet-view">
-                            <img src="images/earbud-xray-full.jpg" alt="xray earbud">
-                            <img src="images/earbud-xray.jpg" alt="regular earbud">
-
-                            </div>
-                        </div>
-                        <div id="outerShell">
-                            <div id="imageCon">
-                                <!-- xray version -->
-                                <div class="slideImage image-right"></div>
-                                <!-- rendered version -->
-                                <div class="slideImage image-left"></div>
-                                <!-- drag bar -->
-                                <div class="slideImage image-drag"></div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-
-
 
 
 <!--  audio_spectrum -->
@@ -107,6 +84,28 @@
                             <source src="/videos/intelligent_noise_control.mp4">
                         </video> 
                     </div>
+                </div>
+
+                <!--  x-ray -->
+                <div class="grid-con">
+                    <section class="col-span-full">
+                        <h2 class="hidden">X-Ray revealer</h2>
+                        <div id="mobile-tablet-view">
+                            <img src="images/earbud-xray-full.jpg" alt="xray earbud">
+                            <img src="images/earbud-xray.jpg" alt="regular earbud">
+                        </div>
+                        
+                        <div id="outerShell">
+                            <div id="imageCon">
+                                <!-- xray version -->
+                                <div class="slideImage image-right"></div>
+                                <!-- rendered version -->
+                                <div class="slideImage image-left"></div>
+                                <!-- drag bar -->
+                                <div class="slideImage image-drag"></div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
 
 
@@ -162,7 +161,7 @@
                             View in your space
                         </button>
                         <div id="ar-prompt">
-                            <img src="images/ar_hand_prompt.png">
+                            <img src="images/ar_hand_prompt.png" alt="ar hand prompt">
                         </div>
                     </model-viewer>  
                 </div>
@@ -173,7 +172,7 @@
                     <div class="col-start-3 col-end-6 m-col-start-3 m-col-end-6 l-col-start-3 l-col-end-6 xl-col-start-3 xl-col-end-6">
                         <div class="reviewers">
                             <div class="col-start-3 col-end-6 m-col-start-3 m-col-end-6 l-col-start-3 l-col-end-6 xl-col-start-3 xl-col-end-6">
-                                <img src="images/png/pic-female1.png" class="photo1">
+                                <img src="images/png/pic-female1.png" class="photo1" alt="female reviewer">
                             </div>
 
                             <h4 class="name">Sandy Chicks</h4>
@@ -184,7 +183,7 @@
                     <div class="col-start-8 col-end-11 m-col-start-8 m-col-end-11 l-col-start-8 l-col-end-11 xl-col-start-8 xl-col-end-11">
                         <div class="reviewers">
                             <div>
-                                <img src="images/png/pic-male1.png" class="photo2">
+                                <img src="images/png/pic-male1.png" class="photo2" alt="male1  reviewer">
                             </div>
                             <h4 class="name">Bob Square</h4>
                             <h5 class="buyers">Verified buyer</h5>
@@ -197,7 +196,7 @@
                     <div class="col-start-3 col-end-6 m-col-start-3 m-col-end-6 l-col-start-3 l-col-end-6 xl-col-start-3 xl-col-end-6">
                         <div class="reviewers">
                             <div>
-                                <img src="images/png/pic-male2.png" class="photo3">
+                                <img src="images/png/pic-male2.png" class="photo3" alt="male2  reviewer">
                             </div>
                             <h4 class="name">Phatrick Stars</h4>
                             <h5 class="buyers">Verified buyer</h5>
@@ -207,7 +206,7 @@
                     <div class="col-start-8 col-end-11 m-col-start-8 m-col-end-11 l-col-start-8 l-col-end-11 xl-col-start-8 xl-col-end-11">
                         <div class="reviewers">
                             <div>
-                                <img src="images/png/pic-male3.png" class="photo4">
+                                <img src="images/png/pic-male3.png" class="photo4" alt="male3  reviewer">
                             </div>
                             <h4 class="name">Squid Whard</h4>
                             <h5 class="buyers">Verified buyer</h5>
@@ -254,7 +253,9 @@
                     </div>
                 </footer>
 
+
 <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.js"></script>
 <script src="js/main.js"></script>
